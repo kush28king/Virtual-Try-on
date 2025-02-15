@@ -1,5 +1,3 @@
-
-
 from tkinter import *
 #Using Tkinter for the GUI
 import PIL.ImageTk
@@ -17,8 +15,7 @@ top.title("Welcome to Your Own Virtual DressChecker !!!!!")
 
 
 
-Message(top,text="DEVELOPED BY TEAM FORCEGT  \n                  MEMBERS:               \nGaurav,Adhokshaj,Sanjog,Samir \n           Version 1.0 BETA", justify=LEFT, width=1000, fg="#c9210a").place(height=1200,width=600)
-
+Message(top,text="DEVELOPED BY Kushagra Gupta") 
 
 def webcam():
     import cv2
